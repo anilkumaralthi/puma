@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(180, 230, 230);
+  }
+  #a {
+    background-color: wheat;
+    padding: 5px;
+    margin-top: -10px;
+  }
+  #main{
+    margin-top:-10px;
+  }
+
+  ul {
+    list-style-type: none;
+    background-color: black;
+  }
+  #main li {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+
+  }
+  #logo {
+    float: right;
+  }
+  .b {
+    color: brown;
+  }
+  .c {
+    color: black;
+  }
+  .d {
+    color: rebeccapurple;
+  }
+  #img1 {
+    filter:brightness(0.2);
+  }
+  #img1:hover {
+    filter: brightness(0.9);
+
+  }
+  #img2 {
+    filter: brightness(0.4);
+  }
+  #img2:hover {
+    filter: brightness(0.9);
+  }
+  #img3 {
+    filter: opacity(0%);
+  }
+  #img3:hover {
+    filter: opacity(100%);
+  }
+  #img4 {
+    filter: brightness(0.2);
+  }
+  #img4:hover {
+    filter: brightness(0.9);
+  }
+  .last {
+    padding: 3px;
+  }
+  #main #man {
+    display: none;
+  }
+ #main #women{
+    display: none;
+  }
+  #main #kids{
+    display: none;
+  }
+  #main #coll{
+    display: none;
+  }
+  #main #sport{
+    display: none;
+  }
+  #main #outlet{
+    display: none;
+  }
+  #main #new{
+    display: none;
+  }
+ #main li:hover #new{
+    display: block;
+  position: absolute;
+    color:black;
+    margin-left: -130px;
+    
+    
+   
+  }
+ #main li:hover #outlet{
+    display: block;
+    position: absolute;
+    color: black;
+    margin-left: -150px;
+  
+  }
+ #main li:hover #sport{
+    display: block;
+    position: absolute;
+    color:black;
+    margin-left: -150px;
+   
+  }
+  #main li:hover #coll{
+    display: block;
+    position: absolute;
+    color:black;
+    margin-left: -150px;
+  
+  }
+  #main li:hover #kids{
+    display: block;
+    position: absolute;
+    color: black;
+    margin-left: -150px;
+  
+  }
+  #main li:hover #women{
+    display: block;
+    position: absolute;
+    color: black;
+    margin-left: -150px;
+   
+  }
+  #main li:hover #man {
+    display: block;
+    position: absolute;
+    color: black;
+    margin-left: -150px;
+    
+  }
+  /*#main #man #sale{
+    display: none;
+  }
+  #main #man li:hover #sale{
+    display: block;
+    position: absolute;
+    color: black;
+  
+  }*/
+  a{
+    color: white;
+    text-decoration:none;
+    
+  }
+  a:hover{
+    text-decoration: underline wheat;
+  }
+  .stricker{
+    float: right;
+    position: relative;
+    padding-bottom: 500px;
+  }
+  p{
+    padding: 10px;
+  }
+  #main ul li{
+    display:block;
+    overflow:hidden;
+  }

@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(180, 230, 230);
+  }
+  #a {
+    background-color: wheat;
+    padding: 5px;
+    margin-top: -10px;
+  }
+  #main{
+    margin-top:-10px;
+  }
+ /* #img1{
+    margin-top: -16px;
+  }*/
+  ul {
+    list-style-type: none;
+    background-color:black;
+  }
+  ul li {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+
+  }
+  #logo {
+    float: right;
+  }
+  .b {
+    color: brown;
+  }
+  .c {
+    color: black;
+  }
+  .d {
+    color: rebeccapurple;
+  }
+  #img1 {
+    filter: brightness(0.4);
+  }
+  #img1:hover {
+    filter: brightness(0.9);
+  }
+  #img2 {
+    filter: brightness(0.4);
+  }
+  #img2:hover {
+    filter: brightness(0.9);
+  }
+  #img3 {
+    filter: opacity(0%);
+  }
+  #img3:hover {
+    filter: opacity(100%);
+  }
+  #img4 {
+    filter: brightness(0.2);
+  }
+  #img4:hover {
+    filter: brightness(0.9);
+  }
+  .last {
+    padding: 3px;
+  }
+   ul ul {
+    display: none;
+  }
+  ul ul li{
+    color:black;
+    display: block;
+    
+  }
+  ul li:hover ul {
+    display: block;
+    position: absolute;
+    margin-left: -150px;
+    background-color: white;
+    
+  }
+  a{
+    color: white;
+    text-decoration:none;
+    
+  }
+  a:hover{
+    text-decoration: underline wheat;
+  }
+  .stricker{
+    float: right;
+    position: relative;
+    padding-bottom: 500px;
+  }
+  p{
+    padding: 10px;
+  }
+  #main ul li{
+    display:block;
+    overflow:hidden;
+  }
